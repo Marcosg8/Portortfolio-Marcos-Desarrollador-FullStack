@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Marcos Gómez Martín, desarrollador web full stack con experiencia en React, Node.js, MongoDB, MySQL, Supabase y WordPress."
+    />
+    <meta property="og:title" content="Marcos Gómez Martín | Web Developer" />
+    <meta
+      property="og:description"
+      content="Desarrollador web con enfoque en productos digitales, interfaces y aplicaciones funcionales."
+    />
+    <meta property="og:type" content="website" />
+    <title>Marcos Gómez Martín | Web Developer</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23171412'/%3E%3Cpath d='M18 46V18h7.8l9.5 20.2V18H42v28H34.2L24.7 25.8V46H18Z' fill='%23d6b07d'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container nav">
+          <a class="brand" href="#top" aria-label="Ir arriba">
+            <span class="brand-mark">MG</span>
+            <span class="brand-name">Marcos Gómez Martín</span>
+          </a>
+
+          <nav class="nav-links" aria-label="Navegación principal">
+            <a href="#about">Sobre mí</a>
+            <a href="#stack">Stack</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#experience">Mi recorrido</a>
+            <a href="#contact">Contacto</a>
+          </nav>
+
+          <a class="button button--small" href="#contact">Contactar</a>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero section">
+          <div class="container hero-layout">
+            <div class="hero-copy reveal">
+              <p class="role-label">WEB DEVELOPER</p>
+              <h1>MARCOS<br />GÓMEZ MARTÍN</h1>
+              <p class="lead">Construyo aplicaciones web y productos digitales.</p>
+
+              <p class="hero-meta">Frontend · Backend · APIs · Datos</p>
+
+              <div class="cta-row">
+                <a class="button" href="#projects">Ver proyectos</a>
+                <a class="button button--secondary" href="#contact">Contactar</a>
+              </div>
+
+              <div class="social-links" aria-label="Enlaces sociales">
+                <a href="https://github.com/Marcosg8?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/marcos-gomez-martin-005625221" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </div>
+            </div>
+
+            <div class="hero-visual reveal" aria-label="Espacio de trabajo de desarrollo">
+              <div class="developer-panel">
+                <div class="developer-panel__header">
+                  <span>workspace</span>
+                  <span class="panel-dots" aria-hidden="true">
+                    <i></i><i></i><i></i>
+                  </span>
+                </div>
+
+                <div class="developer-panel__body">
+                  <div class="code-window">
+                    <div class="code-window__header">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="code-window__content">
+                      <span class="code-line code-line--comment">// full-stack developer</span>
+                      <span class="code-line">const app = createProduct();</span>
+                      <span class="code-line">const stack = ['React', 'Node', 'DB'];</span>
+                      <span class="code-line">return buildSolution(app, stack);</span>
+                    </div>
+                  </div>
+
+                  <div class="mini-metrics">
+                    <div class="metric">
+                      <small>Frontend</small>
+                      <strong>UI</strong>
+                    </div>
+                    <div class="metric">
+                      <small>API</small>
+                      <strong>REST</strong>
+                    </div>
+                    <div class="metric">
+                      <small>Data</small>
+                      <strong>Mongo</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section about" id="about">
+          <div class="container narrow">
+            <div class="section-header reveal">
+              <p class="eyebrow">Sobre mí</p>
+              <h2>Soy Marcos.</h2>
+            </div>
+
+            <div class="about-grid reveal">
+              <div class="about-copy">
+                <p>
+                  Soy Marcos, desarrollador web con enfoque en productos útiles, claros y bien
+                  pensados.
+                </p>
+                <p>
+                  Me gusta resolver problemas reales: mejorar la experiencia de uso, dejar una
+                  base técnica sólida y construir soluciones que funcionen en la práctica, no solo
+                  en teoría.
+                </p>
+                <p>
+                  Trabajo con JavaScript, React, Node.js, APIs y bases de datos, y me interesa
+                  colaborar en proyectos donde el detalle, la lógica y la claridad importen.
+                </p>
+              </div>
+
+              <div class="about-aside">
+                <p>Frontend · Backend · APIs · Datos · Product mindset</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section stack-section" id="stack">
+          <div class="container stack-wrap">
+            <div class="section-header reveal">
+              <p class="eyebrow">Stack</p>
+              <h2>Tecnologías con las que trabajo.</h2>
+            </div>
+
+            <div class="stack-editorial reveal">
+              <div class="stack-column">
+                <p class="stack-title">Frontend</p>
+                <p>HTML · CSS · JavaScript · TypeScript · React · Tailwind · Leaflet</p>
+              </div>
+
+              <div class="stack-column">
+                <p class="stack-title">Backend</p>
+                <p>Node.js · Express · REST APIs · Multer</p>
+              </div>
+
+              <div class="stack-column">
+                <p class="stack-title">Database</p>
+                <p>MongoDB · MySQL · PostgreSQL · Supabase</p>
+              </div>
+
+              <div class="stack-column">
+                <p class="stack-title">Tools</p>
+                <p>Git · GitHub · Docker · Figma · VS Code</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section projects" id="projects">
+          <div class="container">
+            <div class="section-header reveal">
+              <p class="eyebrow">Proyectos</p>
+              <h2>Trabajo real, pensado para resolver cosas útiles.</h2>
+            </div>
+
+            <article class="project-feature reveal">
+              <div class="project-feature__text">
+                <p class="project-label">TrailHub</p>
+                <h3>Aplicación web para rutas, geolocalización y experiencias al aire libre.</h3>
+                <p>
+                  Plataforma pensada para descubrir recorridos, consultar puntos de interés y
+                  ofrecer una experiencia clara en entornos geográficos.
+                </p>
+
+                <div class="tech-list">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>MongoDB</span>
+                  <span>MySQL</span>
+                  <span>Leaflet</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" aria-label="Ver demo de TrailHub">Demo →</a>
+                  <a href="https://github.com/Marcosg8?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                </div>
+              </div>
+
+              <div class="project-feature__visual project-feature__visual--trailhub" aria-label="Vista previa de TrailHub">
+                <div class="trailhub-frame">
+                  <div class="trailhub-header">
+                    <span>TrailHub</span>
+                    <span class="signal"></span>
+                  </div>
+                  <div class="trailhub-map">
+                    <span class="pin pin-one"></span>
+                    <span class="pin pin-two"></span>
+                    <span class="pin pin-three"></span>
+                  </div>
+                  <div class="trailhub-bar">
+                    <div>
+                      <small>Rutas</small>
+                      <strong>200</strong>
+                    </div>
+                    <div>
+                      <small>Distancia</small>
+                      <strong>+15K</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <div class="project-variants project-variants--text-only">
+              <article class="project-variant project-variant--split project-variant--reverse reveal">
+                <div class="project-variant__visual visual-rutas" aria-label="Visual de rutas">
+                  <img src="image/rutas.png" alt="Rutas de senderismo" />
+                </div>
+                <div class="project-variant__content">
+                  <p class="project-label">Webs a medida</p>
+                  <h3>Diseño y desarrollo de sitios web funcionales.</h3>
+                  <p>
+                    Interfaces limpias, estructura clara y presencia profesional para proyectos que
+                    necesitan comunicar bien y vender con confianza.
+                  </p>
+                </div>
+              </article>
+
+              <article class="project-variant project-variant--split project-variant--reverse reveal">
+                <div class="project-variant__visual visual-two" aria-label="Visual de landing page">
+                  <img src="image/image.png" alt="Landing page de rutas" />
+                </div>
+                <div class="project-variant__content">
+                  <p class="project-label">Landing pages</p>
+                  <h3>Diseño de páginas orientadas a conversión.</h3>
+                  <p>
+                    Páginas con claridad, mensajes directos y una experiencia enfocada en captar
+                    interés real y sostener la atención del usuario.
+                  </p>
+                </div>
+              </article>
+
+              <article class="project-variant project-variant--text reveal">
+                <div class="project-variant__content">
+                  <p class="project-label">APIs y servicios</p>
+                  <h3>APIs, datos y servicios conectados.</h3>
+                  <p>
+                    Integraciones entre frontend, backend y almacenamiento para mantener una solución
+                    funcional, escalable y fácil de mantener.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section case-study" aria-label="Case study">
+          <div class="container narrow">
+            <div class="section-header reveal">
+              <p class="eyebrow">TrailHub</p>
+              <h2>Un proyecto pensado desde la necesidad real.</h2>
+            </div>
+
+            <div class="case-editorial reveal">
+              <div class="case-block">
+                <p class="case-kicker">El problema</p>
+                <p>
+                  Había que presentar recorridos de forma clara, con contexto geográfico y
+                  una experiencia útil para la consulta rápida.
+                </p>
+              </div>
+
+              <div class="case-block">
+                <p class="case-kicker">La construcción</p>
+                <p>
+                  La solución se planteó con una arquitectura visual simple, una base técnica
+                  sólida y un enfoque en la experiencia del usuario.
+                </p>
+              </div>
+
+              <div class="case-block">
+                <p class="case-kicker">Tecnología</p>
+                <p>React · Node.js · MongoDB · Leaflet</p>
+              </div>
+
+              <div class="case-block">
+                <p class="case-kicker">Lo que aprendí</p>
+                <p>
+                  La claridad del producto vale más que la cantidad de elementos visuales.
+                  Cuanto más directa es la experiencia, mejor funciona la solución.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section experience" id="experience">
+          <div class="container narrow">
+            <div class="section-header reveal">
+              <p class="eyebrow">Mi recorrido</p>
+              <h2>Evolución personal y técnica.</h2>
+            </div>
+
+            <div class="timeline reveal">
+              <div class="timeline-item">
+                <span class="timeline-year">2022</span>
+                <div>
+                  <h3>Primeros pasos en desarrollo web.</h3>
+                  <p>HTML, CSS, JavaScript y primeros proyectos prácticos.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="timeline-year">2023</span>
+                <div>
+                  <h3>JavaScript, React y backend.</h3>
+                  <p>Ampliación de conocimientos en interfaces y lógica de aplicación.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="timeline-year">2024 — Ahora</span>
+                <div>
+                  <h3>Proyectos full stack y aplicaciones web.</h3>
+                  <p>Construcción de soluciones con React, Node.js, bases de datos y APIs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section github-section" id="github">
+          <div class="container">
+            <div class="section-header reveal">
+              <p class="eyebrow">GitHub</p>
+              <h2>GitHub</h2>
+            </div>
+
+            <div class="github-shell reveal">
+              <div class="github-header">
+                <div>
+                  <p class="github-user">@Marcosg8</p>
+                  <p class="github-label">Repositorios destacados</p>
+                </div>
+                <a href="https://github.com/Marcosg8?tab=repositories" target="_blank" rel="noopener noreferrer">Ver perfil →</a>
+              </div>
+
+              <div class="github-list">
+                <article>
+                  <span class="github-name">trailhub</span>
+                  <span class="github-meta">React · Node.js · MongoDB</span>
+                </article>
+                <article>
+                  <span class="github-name">portfolio</span>
+                  <span class="github-meta">HTML · CSS · JavaScript</span>
+                </article>
+                <article>
+                  <span class="github-name">apis-node</span>
+                  <span class="github-meta">Express · REST · Datos</span>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="container contact-box reveal">
+            <div class="contact-copy">
+              <p class="eyebrow">Contacto</p>
+              <h2>¿Hablamos?</h2>
+            </div>
+
+            <div class="contact-actions">
+              <button class="button js-contact-trigger" type="button">Contactar</button>
+              <a class="button button--secondary" href="https://www.linkedin.com/in/marcos-gomez-martin-005625221" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a class="button button--secondary" href="https://github.com/Marcosg8?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-row">
+          <div>
+            <p class="footer-name">Marcos Gómez Martín</p>
+            <p class="footer-role">Web Developer</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="https://github.com/Marcosg8?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/marcos-gomez-martin-005625221" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+
+          <p class="footer-meta">Designed & built with care.</p>
+        </div>
+
+        <div class="container footer-bottom">
+          <span>© <span id="year">2026</span> Marcos Gómez Martín</span>
+        </div>
+      </footer>
+    </div>
+
+    <div class="contact-modal" id="contactModal" aria-hidden="true">
+      <div class="contact-modal__backdrop" data-close="true"></div>
+      <div class="contact-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+        <button type="button" class="contact-modal__close" aria-label="Cerrar contacto">×</button>
+        <p class="eyebrow">Contacto</p>
+        <h3 id="contactModalTitle">Marcos Gómez Martín</h3>
+        <div class="contact-modal__info">
+          <a href="mailto:marcosgomezmartin8@gmail.com">marcosgomezmartin8@gmail.com</a>
+          <a href="tel:+34619084659">619 084 659</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
